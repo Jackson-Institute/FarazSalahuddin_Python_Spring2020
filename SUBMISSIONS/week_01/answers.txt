@@ -40,3 +40,32 @@ s2	s3
 (base) Farazs-MBP:Advanced farazsalahuddin$ echo "A new fantastic point of view" >> text_chunk2.txt
 (base) Farazs-MBP:Advanced farazsalahuddin$ echo "Do you want to build a snowman" >> text_chunk2.txt
 (base) Farazs-MBP:Advanced farazsalahuddin$ 
+(base) Farazs-MBP:Advanced farazsalahuddin$ 
+(base) Farazs-MBP:Advanced farazsalahuddin$ cd Documents/GitHub/FarazSalahuddin_Python_Spring2020
+-bash: cd: Documents/GitHub/FarazSalahuddin_Python_Spring2020: No such file or directory
+(base) Farazs-MBP:Advanced farazsalahuddin$ cd ~
+(base) Farazs-MBP:~ farazsalahuddin$ pwd
+/Users/farazsalahuddin
+(base) Farazs-MBP:~ farazsalahuddin$ cd Documents/GitHub/FarazSalahuddin_Python_Spring2020
+(base) Farazs-MBP:FarazSalahuddin_Python_Spring2020 farazsalahuddin$ ls
+README.md	SUBMISSIONS
+(base) Farazs-MBP:FarazSalahuddin_Python_Spring2020 farazsalahuddin$ git init
+Reinitialized existing Git repository in /Users/farazsalahuddin/Documents/GitHub/FarazSalahuddin_Python_Spring2020/.git/
+(base) Farazs-MBP:FarazSalahuddin_Python_Spring2020 farazsalahuddin$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+(base) Farazs-MBP:FarazSalahuddin_Python_Spring2020 farazsalahuddin$ $ git commit -m "First commit"
+-bash: $: command not found
+(base) Farazs-MBP:FarazSalahuddin_Python_Spring2020 farazsalahuddin$  git commit -m "First commit"
+[master 0e17601] First commit
+ 9 files changed, 48 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 SUBMISSIONS/.DS_Store
+ create mode 100644 SUBMISSIONS/week_01/.DS_Store
+ create mode 100644 SUBMISSIONS/week_01/answers.txt
+ create mode 100644 SUBMISSIONS/week_01/s1/.DS_Store
+ create mode 100644 SUBMISSIONS/week_01/s1/s2/.DS_Store
+ create mode 100644 SUBMISSIONS/week_01/s1/s2/Advanced/text_chunk2.txt
+ create mode 100644 SUBMISSIONS/week_01/s1/s2/text_chunk1.txt
+ create mode 100644 SUBMISSIONS/week_01/s1/s3/conf.txt
+(base) Farazs-MBP:FarazSalahuddin_Python_Spring2020 farazsalahuddin$ 
