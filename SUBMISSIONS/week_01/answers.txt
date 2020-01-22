@@ -1,0 +1,42 @@
+Last login: Tue Jan 21 23:00:57 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Farazs-MBP:~ farazsalahuddin$ pwd
+/Users/farazsalahuddin
+(base) Farazs-MBP:~ farazsalahuddin$ ls
+Applications	Downloads	Music		Zotero
+Desktop		Library		Pictures	opt
+Documents	Movies		Public
+(base) Farazs-MBP:~ farazsalahuddin$ cd Documents/GitHub/FarazSalahuddin_Python_Spring2020
+(base) Farazs-MBP:FarazSalahuddin_Python_Spring2020 farazsalahuddin$ pwd
+/Users/farazsalahuddin/Documents/GitHub/FarazSalahuddin_Python_Spring2020
+(base) Farazs-MBP:FarazSalahuddin_Python_Spring2020 farazsalahuddin$ ls
+README.md
+(base) Farazs-MBP:FarazSalahuddin_Python_Spring2020 farazsalahuddin$ mkdir SUBMISSIONS
+(base) Farazs-MBP:FarazSalahuddin_Python_Spring2020 farazsalahuddin$ cd SUBMISSIONS/
+(base) Farazs-MBP:SUBMISSIONS farazsalahuddin$ mkdir week_01
+(base) Farazs-MBP:SUBMISSIONS farazsalahuddin$ cd week_01
+(base) Farazs-MBP:week_01 farazsalahuddin$ mkdir s1
+(base) Farazs-MBP:week_01 farazsalahuddin$ touch answers.txt
+(base) Farazs-MBP:week_01 farazsalahuddin$ ls
+answers.txt	s1
+(base) Farazs-MBP:week_01 farazsalahuddin$ cd s1
+(base) Farazs-MBP:s1 farazsalahuddin$ mkdir s2 s3
+(base) Farazs-MBP:s1 farazsalahuddin$ ls
+s2	s3
+(base) Farazs-MBP:s1 farazsalahuddin$ cd s3
+(base) Farazs-MBP:s3 farazsalahuddin$ echo "I love bash scripting." >> conf.txt
+(base) Farazs-MBP:s3 farazsalahuddin$ cd s2
+-bash: cd: s2: No such file or directory
+(base) Farazs-MBP:s3 farazsalahuddin$ cd ..
+(base) Farazs-MBP:s1 farazsalahuddin$ cd s2
+(base) Farazs-MBP:s2 farazsalahuddin$ echo "A whole new world" >> text_chunk1.txt
+(base) Farazs-MBP:s2 farazsalahuddin$ echo "A new fantastic point of view" >> text_chunk1.txt 
+(base) Farazs-MBP:s2 farazsalahuddin$ mkdir Advanced
+(base) Farazs-MBP:s2 farazsalahuddin$ cd Advanced/
+(base) Farazs-MBP:Advanced farazsalahuddin$ echo "A whole new world" >> text_chunk2.txt
+(base) Farazs-MBP:Advanced farazsalahuddin$ echo "A new fantastic point of view" >> text_chunk2.txt
+(base) Farazs-MBP:Advanced farazsalahuddin$ echo "Do you want to build a snowman" >> text_chunk2.txt
+(base) Farazs-MBP:Advanced farazsalahuddin$ 
